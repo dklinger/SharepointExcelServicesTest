@@ -1,0 +1,9 @@
+﻿<Window x:Class="DummyWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtDebug" HorizontalAlignment="Left" Height="274" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497" />
+        <Button x:Name="btnDoSomething" Content="Do Something" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="497" Click="btnDoSomething_Click" />
+    </Grid>
+</Window>
